@@ -1,0 +1,30 @@
+@import "tailwindcss";
+html {
+  scroll-behavior: smooth;
+}
+.marquee-container {
+  overflow: hidden;
+  width: 100%;
+  background-color: #1f2937; /* same as bg-gray-900 */
+}
+
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: scroll-marquee 20s linear infinite;
+  gap: 3rem; /* space-x-12 equivalent */
+}
+
+@keyframes scroll-marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee-track img {
+  height: 3rem;
+  filter: invert(1); /* make logos white on dark background */
+}

@@ -10,12 +10,12 @@ const Header = () => {
       <div className="w-full px-6 md:px-12 py-4 flex justify-between items-center border-b border-gray-200">
         {/* Logo */}
         <div className="h-14 flex items-center">
-          <img 
-            src=
-            {logo}
-            alt="Pegasus Retail Logo"
-            className="h-32 w-32 mt-8"
-          />
+        <img 
+  src={logo}
+  alt="Pegasus Retail Logo"
+  className="h-16 w-16 mt-8 mb-8"
+/>
+
         </div>
 
         {/* Desktop Navigation */}

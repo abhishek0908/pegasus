@@ -70,11 +70,11 @@ export default function AboutPage() {
 
               <div className="space-y-6">
                 <p className="text-lg text-gray-700">
-                  Pegasus Retail believes in long term relationships and is known for its trust and integrity in the market.
+                  Pegasus believes in long term relationships and is known for its trust and integrity in the market.
                 </p>
 
                 <p className="text-lg text-gray-700">
-                  Pegasus Retail enjoys working very closely with its customers and strives to be the first port of call for any challenge / new opportunity that its customers come across.
+                  Pegasus  enjoys working very closely with its customers and strives to be the first port of call for any challenge / new opportunity that its customers come across.
                 </p>
               </div>
 

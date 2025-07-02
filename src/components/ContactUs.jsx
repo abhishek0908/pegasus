@@ -139,11 +139,6 @@ export default function ContactUs() {
               <a href="tel:+917312544111" className="text-sm font-medium block">
                 +919039030116
               </a>
-
-              {/* Telephone */}
-              <a href="tel:+919039030116" className="text-sm font-medium block">
-                +917312544111
-              </a>
             </div>
           </div>
 
@@ -158,7 +153,7 @@ export default function ContactUs() {
               <h3 className="text-lg font-medium mb-1">Chat to Support</h3>
               <p className="text-sm mb-3">We're here to help</p>
               <a 
-                href="https://wa.me/917312544111?text=Hi%20Pegasus%20Support%20Team"
+                href="https://wa.me/919039030116?text=Hi%20Pegasus%20Support%20Team"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-sm border border-gray-300 rounded-md px-4 py-1 hover:bg-gray-50"

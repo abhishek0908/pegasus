@@ -66,7 +66,7 @@ export const servicesData = [
   {
     title: "Medical Health",
     description:
-      "We provide Medical products at an affordable offerings to the medical practitioners thereby serving the mankind.",
+      "We provide Medical products at an affordable offerings thereby serving the mankind.",
     icon: <Activity className="text-yellow-500" />,
   },
   {

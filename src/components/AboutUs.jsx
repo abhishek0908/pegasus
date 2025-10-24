@@ -20,24 +20,25 @@ export default function AboutPage() {
 
           <p className="text-gray-600 text-lg">
             Pegasus Retail India Pvt. Ltd., based in Indore, is a leading IT service provider delivering
-            end-to-end technology solutions for government, corporate, and educational sectors.
-            We specialize in providing IT hardware, networking solutions, power solutions,
-            and related accessories on a turnkey basis to our esteemed clients.
+            end-to-end technology solutions for government, corporate, and educational sectors. We
+            specialize in providing IT hardware, networking solutions, power solutions, and related
+            accessories on a turnkey basis to our esteemed clients.
           </p>
 
           <p className="text-gray-600 text-lg">
-            We are partnered with globally renowned OEMs such as HP, Dell, Acer, Samsung,
-            LG, Cisco, and Zoom, and also offer comprehensive post-warranty services.
-            With over 15 years of experience, Pegasus Retail India Pvt. Ltd. has evolved
-            into a trusted and well-established business house serving clients across multiple industries.
+            We are partnered with globally renowned OEMs such as HP, Dell, Acer, Samsung, LG, Cisco,
+            and Zoom, and also offer comprehensive post-warranty services. With over 15 years of
+            experience, Pegasus Retail India Pvt. Ltd. has evolved into a trusted and well-established
+            business house serving clients across multiple industries.
           </p>
 
           <p className="text-gray-600 text-lg">
             Recognizing the rapid growth of the IT sector, PRIPL has expanded its presence to
-            Chhattisgarh and has plans to commence operations in Gujarat and Maharashtra.
-            The organization is spearheaded by <strong>Mr. Harsh Dhakad</strong>, a young MBA graduate
-            specializing in Finance and Marketing, who is transforming PRIPL into a
-            professionally managed enterprise.
+            Chhattisgarh and has plans to commence operations in Gujarat and Maharashtra. The
+            organization is spearheaded by{' '}
+            <strong className="text-blue-600">Mr. Harsh Mehta</strong>, a young MBA graduate
+            specializing in Finance and Marketing, who is transforming PRIPL into a professionally
+            managed enterprise.
           </p>
         </div>
 
@@ -54,78 +55,33 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Home / Services Section */}
-      <section className="bg-gray-50 py-16">
-        <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center gap-8">
-          {/* Left Image */}
-          <div className="w-full md:w-1/2">
-            <div className="rounded-lg overflow-hidden shadow-lg">
-              <img
-                src={secondImage}
-                alt="IT products and networking solutions"
-                className="w-full h-auto"
-              />
-            </div>
-          </div>
-
-          {/* Right Content */}
-          <div className="w-full md:w-1/2 space-y-6">
-            <h2 className="text-5xl font-bold text-gray-900">OUR SOLUTIONS</h2>
-
-            <p className="text-lg text-gray-700">
-              Pegasus Retail India Pvt. Ltd. is a trusted IT service provider offering complete
-              end-to-end technology solutions to governments, corporates, educational institutions,
-              and PSUs.
-            </p>
-
-            <ul className="list-disc list-inside text-gray-700 text-lg space-y-2">
-              <li>
-                <strong>Computing Products:</strong> Desktops, laptops, printers, multifunction devices, and tablets.
-              </li>
-              <li>
-                <strong>Software & Power Solutions:</strong> Licensed software, online/offline UPS systems,
-                and complete power management solutions.
-              </li>
-              <li>
-                <strong>Networking & Security:</strong> Routers, switches, wireless products,
-                and comprehensive security solutions.
-              </li>
-              <li>
-                <strong>Collaboration & Display:</strong> Video conferencing systems, wireless Wi-Fi setups,
-                commercial and interactive panels, projectors, and smartphones from IDC-recognized global brands.
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
       {/* Identifiers Section */}
-      <section className="bg-white py-16 border-t border-gray-200">
+      <section className="bg-gray-50 py-16">
         <div className="max-w-6xl mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center gap-8">
-            {/* Left Content */}
-            <div className="w-full md:w-1/2 space-y-6">
-              <h2 className="text-5xl font-bold text-gray-900">OUR VALUES</h2>
-
-              <p className="text-lg text-gray-700">
-                Pegasus believes in building long-term relationships and is known
-                for its trust, reliability, and integrity in the market.
-              </p>
-
-              <p className="text-lg text-gray-700">
-                We enjoy working closely with our customers and strive to be the
-                first point of contact for any new challenge or opportunity they face.
-              </p>
-            </div>
-
-            {/* Right Image */}
+            {/* Left Image */}
             <div className="w-full md:w-1/2">
               <div className="rounded-lg overflow-hidden shadow-lg">
                 <img
                   src={secondImage}
-                  alt="Pegasus customer relationship and service values"
+                  alt="Analytics dashboard on laptop"
                   className="w-full h-auto"
                 />
+              </div>
+            </div>
+
+            {/* Right Content */}
+            <div className="w-full md:w-1/2 space-y-6">
+              <h2 className="text-5xl font-bold text-gray-900">IDENTIFIERS</h2>
+
+              <div className="space-y-6">
+                <p className="text-lg text-gray-700">
+                  Pegasus believes in long term relationships and is known for its trust and integrity in the market.
+                </p>
+
+                <p className="text-lg text-gray-700">
+                  Pegasus enjoys working very closely with its customers and strives to be the first port of call for any challenge or new opportunity that its customers come across.
+                </p>
               </div>
             </div>
           </div>
@@ -133,22 +89,22 @@ export default function AboutPage() {
       </section>
 
       {/* Partners Section */}
-      <section className="py-12 bg-blue-600 marquee-container">
+      <section className="py-12 marquee-container">
         <div className="max-w-6xl mx-auto px-4">
           <h2 className="text-5xl font-bold text-white text-center mb-8">OUR PARTNERS</h2>
 
-          <div className="marquee-track flex space-x-8 overflow-hidden animate-marquee">
+          <div className="marquee-track">
             {[...Array(2)].map((_, index) => (
               <React.Fragment key={index}>
-                <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/dell.svg" alt="Dell" className="h-16" />
-                <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/hp.svg" alt="HP" className="h-16" />
-                <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/samsung.svg" alt="Samsung" className="h-16" />
-                <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/microsoft.svg" alt="Microsoft" className="h-16" />
-                <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/lenovo.svg" alt="Lenovo" className="h-16" />
-                <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/acer.svg" alt="Acer" className="h-16" />
-                <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/lg.svg" alt="LG" className="h-16" />
-                <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/cisco.svg" alt="Cisco" className="h-16" />
-                <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/zoom.svg" alt="Zoom" className="h-16" />
+                <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/dell.svg" alt="Dell" />
+                <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/hp.svg" alt="HP" />
+                <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/samsung.svg" alt="Samsung" />
+                <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/microsoft.svg" alt="Microsoft" />
+                <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/lenovo.svg" alt="Lenovo" />
+                <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/acer.svg" alt="Acer" />
+                <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/lg.svg" alt="LG" />
+                <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/cisco.svg" alt="Cisco" />
+                <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/zoom.svg" alt="Zoom" />
               </React.Fragment>
             ))}
           </div>

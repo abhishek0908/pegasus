@@ -19,26 +19,31 @@ export default function AboutPage() {
           </h1>
 
           <p className="text-gray-600 text-lg">
-            Pegasus Retail India Pvt. Ltd., based in Indore, is a leading IT service provider delivering
-            end-to-end technology solutions for government, corporate, and educational sectors. We
-            specialize in providing IT hardware, networking solutions, power solutions, and related
-            accessories on a turnkey basis to our esteemed clients.
+            Pegasus Retail India Pvt Ltd based out of Indore is a leading IT service provider company 
+            involved into end to end solutions for Governments, Corporates and education segments. We 
+            provide IT hardware's, networking solutions, power solutions and related accessories on a 
+            turnkey basis to our esteem clients. We are engaged with internationally renowned OEM's like 
+            HP, Dell, Acer, Samsung, LG, Cisco, Zoom and providing post warranty services as well.
           </p>
 
           <p className="text-gray-600 text-lg">
-            We are partnered with globally renowned OEMs such as HP, Dell, Acer, Samsung, LG, Cisco,
-            and Zoom, and also offer comprehensive post-warranty services. With over 15 years of
-            experience, Pegasus Retail India Pvt. Ltd. has evolved into a trusted and well-established
-            business house serving clients across multiple industries.
+            We provide Desktops, Laptops, printers, multifunction printers, tablets with related softwares, 
+            online and offline UPS with power solutions, Microsoft solutions, network and security solutions 
+            like routers, switches, wireless and networking products, video conferencing solutions, wireless 
+            Wi-Fi networking equipments, commercial & interactive panels, smartphones, projectors of IDC 
+            recognized international brands.
           </p>
 
           <p className="text-gray-600 text-lg">
-            Recognizing the rapid growth of the IT sector, PRIPL has expanded its presence to
-            Chhattisgarh and has plans to commence operations in Gujarat and Maharashtra. The
-            organization is spearheaded by{' '}
-            <strong className="text-blue-600">Mr. Harsh Mehta</strong>, a young MBA graduate
-            specializing in Finance and Marketing, who is transforming PRIPL into a professionally
-            managed enterprise.
+            Today Pegasus Retail India Pvt Ltd is a renowned and established business house with a hands-on 
+            experience of 15 years in serving the clients across different verticals.
+          </p>
+
+          <p className="text-gray-600 text-lg">
+            Looking into the current IT growth, PRIPL has expanded its presence to Chhattisgarh with plans 
+            to start its operations in Gujarat & Maharashtra. A Young graduate with MBA in finance and 
+            marketing <strong className="text-blue-600">Mr. Harsh Dhakad</strong> is spearheading the 
+            organization and gradually converting a small organization into a professionally managed company.
           </p>
         </div>
 
@@ -89,26 +94,65 @@ export default function AboutPage() {
       </section>
 
       {/* Partners Section */}
-      <section className="py-12 marquee-container">
+      <section className="py-12 bg-gradient-to-r from-blue-600 to-blue-700 overflow-hidden">
         <div className="max-w-6xl mx-auto px-4">
           <h2 className="text-5xl font-bold text-white text-center mb-8">OUR PARTNERS</h2>
 
-          <div className="marquee-track">
-            {[...Array(2)].map((_, index) => (
-              <React.Fragment key={index}>
-                <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/dell.svg" alt="Dell" />
-                <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/hp.svg" alt="HP" />
-                <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/samsung.svg" alt="Samsung" />
-                <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/microsoft.svg" alt="Microsoft" />
-                <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/lenovo.svg" alt="Lenovo" />
-                <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/acer.svg" alt="Acer" />
-                <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/lg.svg" alt="LG" />
-                <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/cisco.svg" alt="Cisco" />
-                <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/zoom.svg" alt="Zoom" />
-              </React.Fragment>
-            ))}
+          <div className="relative">
+            <div className="flex animate-scroll gap-12 items-center">
+              {[...Array(2)].map((_, setIndex) => (
+                <React.Fragment key={setIndex}>
+                  <div className="flex items-center justify-center min-w-[120px] h-16 bg-white rounded-lg px-6">
+                    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/dell.svg" alt="Dell" className="h-8 w-auto" />
+                  </div>
+                  <div className="flex items-center justify-center min-w-[120px] h-16 bg-white rounded-lg px-6">
+                    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/hp.svg" alt="HP" className="h-8 w-auto" />
+                  </div>
+                  <div className="flex items-center justify-center min-w-[120px] h-16 bg-white rounded-lg px-6">
+                    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/samsung.svg" alt="Samsung" className="h-8 w-auto" />
+                  </div>
+                  <div className="flex items-center justify-center min-w-[120px] h-16 bg-white rounded-lg px-6">
+                    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/microsoft.svg" alt="Microsoft" className="h-8 w-auto" />
+                  </div>
+                  <div className="flex items-center justify-center min-w-[120px] h-16 bg-white rounded-lg px-6">
+                    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/lenovo.svg" alt="Lenovo" className="h-8 w-auto" />
+                  </div>
+                  <div className="flex items-center justify-center min-w-[120px] h-16 bg-white rounded-lg px-6">
+                    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/acer.svg" alt="Acer" className="h-8 w-auto" />
+                  </div>
+                  <div className="flex items-center justify-center min-w-[120px] h-16 bg-white rounded-lg px-6">
+                    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/lg.svg" alt="LG" className="h-8 w-auto" />
+                  </div>
+                  <div className="flex items-center justify-center min-w-[120px] h-16 bg-white rounded-lg px-6">
+                    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/cisco.svg" alt="Cisco" className="h-8 w-auto" />
+                  </div>
+                  <div className="flex items-center justify-center min-w-[120px] h-16 bg-white rounded-lg px-6">
+                    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/zoom.svg" alt="Zoom" className="h-8 w-auto" />
+                  </div>
+                </React.Fragment>
+              ))}
+            </div>
           </div>
         </div>
+
+        <style>{`
+          @keyframes scroll {
+            0% {
+              transform: translateX(0);
+            }
+            100% {
+              transform: translateX(-50%);
+            }
+          }
+          
+          .animate-scroll {
+            animation: scroll 30s linear infinite;
+          }
+          
+          .animate-scroll:hover {
+            animation-play-state: paused;
+          }
+        `}</style>
       </section>
     </div>
   );
